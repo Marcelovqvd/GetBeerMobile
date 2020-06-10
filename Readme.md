@@ -3,11 +3,11 @@ npx --ignore-existing react-native init Getbeerapp --template react-native-templ
 
 eact-native start --reset-cache
 
-react-native run-android   
+react-native run-android
 
 Delete eslint e prettier originais
 
-criar /src/App.tsx 
+criar /src/App.tsx
 
 yarn add eslint -D
 yarn eslint --init
@@ -19,3 +19,7 @@ yarn add -D eslint-plugin-react@^7.19.0 @typescript-eslint/eslint-plugin@latest 
 
 yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
 yarn add eslint-import-resolver-typescript -D
+
+
+## status bar
+componente import { StatusBar } from react-native em App.tsx

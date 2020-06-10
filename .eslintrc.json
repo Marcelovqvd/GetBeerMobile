@@ -35,7 +35,7 @@
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
     "no-unused-expressions": "off",
-    "react/jsx-filename-extentions": [1, { "extensions": [".tsx"] }],
+    "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
     "@typescript-eslint/explicit-function-return-type": [
         "error",
@@ -43,7 +43,7 @@
             "allowExpressions": true
         }
     ],
-    "import/extentions": [
+    "import/extensions": [
       "error",
       "ignorePackages",
       {
