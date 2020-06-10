@@ -23,3 +23,7 @@ yarn add eslint-import-resolver-typescript -D
 
 ## status bar
 componente import { StatusBar } from react-native em App.tsx
+
+## styled-components
+import styled from 'styled-components/native';
+yarn add @types/styled-components -D
