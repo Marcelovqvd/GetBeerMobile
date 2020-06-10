@@ -49,4 +49,6 @@ executar run-android novamente
 import navigationContainer from @react-navigation/native - precisa ficar por volta de toda a aplicação
 Ele cria um Header automaticamente
 
+#### src/@types/index.d.ts
+declara que imagens são modules e por isso podem ser importados
 
