@@ -27,3 +27,26 @@ componente import { StatusBar } from react-native em App.tsx
 ## styled-components
 import styled from 'styled-components/native';
 yarn add @types/styled-components -D
+
+##Routes com React navigation
+yarn add @react-navigation/native
+
+instalçao seguindo a doc
+https://reactnavigation.org/
+
+yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+navigation stack -
+É navegação em pilhas, via botões, abas, drawer ect
+em https://reactnavigation.org/docs/hello-react-navigation/
+yarn add @react-navigation/stack
+
+
+import 'react-native-gesture-handler'; no primeiro arquivo da aplicação -> App.tsx
+
+executar run-android novamente
+
+import navigationContainer from @react-navigation/native - precisa ficar por volta de toda a aplicação
+Ele cria um Header automaticamente
+
+
